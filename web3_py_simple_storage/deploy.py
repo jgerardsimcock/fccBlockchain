@@ -50,8 +50,8 @@ abi = compiled_sol["contracts"]["SimpleStorage.sol"]["SimpleStorage"]["abi"]
 
 
 # for connecting to ganache
-w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
-chain_id = 1337
+w3 = Web3(Web3.HTTPProvider("https://ropsten.infura.io/v3/0d0a9d2159ee43eebead8253a400ad30"))
+chain_id = 3
 
 address = os.getenv("ADDRESS")
 pk = os.getenv("PRIVATE_KEY")
